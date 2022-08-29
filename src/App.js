@@ -158,7 +158,6 @@ function App() {
         <ButtonBox>
           {buttons.flat().map((button, id) => (
             <CircleButton
-              className={button === "=" ? "equals" : ""}
               key={id}
               value={button}
               onClick={

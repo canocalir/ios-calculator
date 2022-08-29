@@ -8,15 +8,6 @@
   color: #fff;
 }
 
-.equals {
-  grid-column: 3 / 5;
-  background-color: rgb(243, 61, 29);
-}
-
-.equals:hover {
-  background-color: rgb(228, 39, 15);
-}
-
 .circle-button:active {
   opacity: 0.5;
   cursor: pointer;
