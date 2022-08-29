@@ -1,0 +1,64 @@
+.circle-button {
+  border: 0.5px solid rgba(0, 0, 0, 0.281);
+  background-color: rgb(65, 59, 59);
+  text-align: center;
+  line-height: 4.4rem;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.equals {
+  grid-column: 3 / 5;
+  background-color: rgb(243, 61, 29);
+}
+
+.equals:hover {
+  background-color: rgb(228, 39, 15);
+}
+
+.circle-button:active {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.circle-button:hover {
+  cursor: pointer;
+}
+
+.circle-button:nth-child(2) {
+  background-color: rgb(128, 128, 128);
+}
+
+.circle-button:nth-child(3) {
+  background-color: rgb(128, 128, 128);
+}
+
+.circle-button:nth-child(4) {
+  background-color: rgb(128, 128, 128);
+}
+
+.circle-button:nth-child(5) {
+  background-color: #ffa500;
+}
+
+.circle-button:nth-child(9) {
+  background-color: #ffa500;
+}
+
+.circle-button:nth-child(13) {
+  background-color: #ffa500;
+}
+
+.circle-button:nth-child(17) {
+  background-color: #ffa500;
+}
+
+.circle-button:nth-child(18) {
+  grid-area: 5/1/5/3;
+  border-radius: 1.9rem;
+}
+
+.circle-button:nth-child(20) {
+  background-color: #f33d1d;
+}

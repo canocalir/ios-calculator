@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    margin: auto;
+    width: 20rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0.5rem;
+    background-color: #10172e;
+    color: white;
+    justify-content: center;
+    padding: 10rem 1rem 1.5rem 1.2rem;
+    border-radius: 3rem;
+}
